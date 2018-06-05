@@ -1,0 +1,9 @@
+#
+http://docs.python-guide.org/en/latest/dev/virtualenvs/
+
+#nginx
+https://khashtamov.com/ru/how-to-deploy-django-app/
+
+#ssl
+https://blog.miguelgrinberg.com/post/running-your-flask-application-over-https
+

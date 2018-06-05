@@ -1,0 +1,8 @@
+  220  openssl genrsa -out webhook_pkey.pem 2048
+  221  openssl req -new -x509 -days 3650 -key webhook_pkey.pem -out webhook_cert.pem
+  224  openssl genrsa -out webhook_pkey.pem 2048
+
+  225  openssl req -new -x509 -days 3650 -key webhook_pkey.pem -out webhook_cert.pem
+
+ bot.set_webhook(url=WEBHOOK_URL_BASE+WEBHOOK_URL_PATH,
+                certificate=open(constants.WEBHOOK_SSL_CERT, 'rb'))
