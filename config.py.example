@@ -1,0 +1,7 @@
+#telegram token
+TOKEN = ''
+# server params
+SERVER_URL = ''
+SERVER_PORT = ''
+
+
