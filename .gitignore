@@ -1,1 +1,7 @@
 config.py
+*.pem
+*.key
+*.log
+logs/*.log
+*.pyc
+__pycache__

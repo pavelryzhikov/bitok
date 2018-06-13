@@ -1,9 +1,29 @@
 #
 http://docs.python-guide.org/en/latest/dev/virtualenvs/
 
+#install nginx
+https://www.digitalocean.com/community/tutorials/nginx-ubuntu-16-04-ru
+
 #nginx
 https://khashtamov.com/ru/how-to-deploy-django-app/
 
+# flask+gunicorn+nginx
+#https://habr.com/post/267097/
+https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-uwsgi-and-nginx-on-ubuntu-16-04
+
 #ssl
-https://blog.miguelgrinberg.com/post/running-your-flask-application-over-https
+#it does not work
+#https://blog.miguelgrinberg.com/post/running-your-flask-application-over-https
+https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-nginx-in-ubuntu-16-04
+
+#ssl
+ssl just works with
+https://stackoverflow.com/questions/33256898/telegram-bot-on-openssl/33260827#33260827
+
+
+#restat server
+sudo service nginx restart
+
+#restart app
+sudo systemctl restart bitok
 
